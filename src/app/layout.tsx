@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { Footer } from "@/components/layout/footer";
+import { Navbar } from "@/components/layout/navbar";
 // On Vercel, set this ENV in Project Settings later:
 const PUBLIC_BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "https://your-vercel-project.vercel.app";
@@ -39,8 +41,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      {/* If you have a ThemeProvider, wrap body content with it */}
+      {/* <body><ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
+      <body>
+        {/* 👇 bring your navbar back */}
+        < Navbar />
+        <main className="min-h-[70vh]">{children}</main>
+        {/* 👇 and your footer */}
+        <Footer />
+      </body>
+      {/* </ThemeProvider></body> */}
     </html>
   );
 }
