@@ -3,7 +3,7 @@ import { ProjectGrid } from "@/components/projects/project-grid";
 import { projectsData } from "@/data/projects";
 
 export const metadata: Metadata = {
-  title: "Projects - Bjorn Melin",
+  title: "Projects",
   description:
     "Explore my portfolio of projects in machine learning and AI, cloud architecture, and web development.",
 };
