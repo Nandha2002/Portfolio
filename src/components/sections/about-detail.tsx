@@ -37,7 +37,7 @@ export function AboutDetail() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary/10">
               <Image
-                src="/headshot/headshot-2024.jpg" // 📸 place your photo at /public/me.jpg
+                src="/Portfolio/headshot/headshot-2024.jpg" // 📸 place your photo at /public/me.jpg
                 alt="Nandha Kumar Reddy Kaipa"
                 fill
                 sizes="192px"

@@ -5,30 +5,17 @@
   "description": "Personal portfolio of Nandha Kumar Reddy Kaipa — MAC (AI) student building ML and systems projects.",
   "author": "Nandha Kumar Reddy Kaipa",
   "license": "MIT",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
-    "serve": "pnpm dlx serve out",
     "lint": "biome check --write .",
     "format": "biome format --write .",
-    "format:check": "biome format .",
     "type-check": "tsc --noEmit",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage",
-    "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui",
-    "test:e2e:report": "playwright show-report",
-    "test:e2e:docker": "./scripts/run-e2e-tests.sh",
-    "test:e2e:setup": "./scripts/setup-e2e.sh",
-    "prepare": "husky",
-    "semantic-release": "semantic-release",
-    "semantic-release:dry-run": "semantic-release --dry-run --no-ci",
-    "predeploy": "next build && next export && echo > out/.nojekyll",
-    "deploy": "gh-pages -d out -b gh-pages"
+    "test": "vitest"
   },
+
   "dependencies": {
     "@aws-sdk/client-cloudwatch": "^3.844.0",
     "@aws-sdk/client-ssm": "^3.693.0",

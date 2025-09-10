@@ -1,9 +1,10 @@
 // src/data/skills.ts
 import { Code, Database, Server, Cpu } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 export type SkillCategory = {
   name: string;
-  Icon: any;
+  Icon: LucideIcon;   // ← proper typing, no 'any'
   color: string;
   skills: string[];
 };
