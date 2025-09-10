@@ -12,7 +12,7 @@ export function Hero() {
       <div className="container mx-auto px-4 flex flex-col items-center gap-8">
         <div className="relative w-40 h-40 rounded-full overflow-hidden shadow-lg border-4 border-primary/10">
           <Image
-            src="/Portfolio/headshot/headshot-24.jpg"
+            src="/headshot/headshot-2024.jpg"
             alt="Nandha Kumar Reddy Kaipa"
             fill
             className="object-cover"
