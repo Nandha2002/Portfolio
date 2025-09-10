@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {/* 👇 bring your navbar back */}
         < Navbar />
-        <main className="min-h-[70vh]">{children}</main>
+        <main className="min-h-[70vh] pt-20">{children}</main>
         {/* 👇 and your footer */}
         <Footer />
       </body>
