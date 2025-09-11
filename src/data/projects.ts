@@ -51,7 +51,7 @@ export const projectsData: Project[] = [
     ],
     category: "IoT & Automation",
     links: {
-      github: "https://github.com/Nandha2002/Personal_Project2",
+      github: "https://github.com/Nandha2002/AI-and-Sensor-Driven-System",
     },
     featured: true,
   },
