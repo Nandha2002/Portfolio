@@ -103,7 +103,7 @@ export const projectsData: Project[] = [
     ],
     category: "AI & Machine Learning",
     links: {
-      // Add GitHub link if available
+      github: "https://github.com/Nandha2002/Nullclass_Internship", // Add GitHub link if available
     },
     featured: false,
   },
