@@ -25,7 +25,7 @@ export const projectsData: Project[] = [
     ],
     category: "AI & Machine Learning",
     links: {
-      github: "https://github.com/Nandha2002/Group_Project",
+      github: "https://github.com/Nandha2002/Phishing-Detection-Model",
     },
     featured: true,
   },
