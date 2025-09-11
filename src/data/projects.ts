@@ -129,7 +129,7 @@ export const projectsData: Project[] = [
     ],
     category: "Data Science",
     links: {
-      // Add GitHub link if available
+      github: "https://github.com/Nandha2002/MTE_Intern_Project", // Add GitHub link if available
     },
     featured: false,
   },
